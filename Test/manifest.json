@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Rename Yasmine",
+  "version": "2.5",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.facebook.com/*",
+        "https://www.facebook.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
